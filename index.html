@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>File Upload</h1>
+      <form action="/upload/array" method="POST" enctype="multipart/form-data">
+        <label for="file-upload">File :</label>
+        <input id="file-upload" name="file" type="file" multiple />
+        <hr />
+
+        <button type="submit" class="btn">파일 업로드 하기</button>
+        <p class="message" style="display: none">22</p>
+      </form>
+    </div>
+  </body>
+</html>
